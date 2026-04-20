@@ -7,7 +7,7 @@ const ProfileCard=({name,bio,initialBg})=>{
         <div 
             className="card"
             style={{background:bg}}
-            onMouseEnter={()=>setBg("linear-gradient(135deg, #FFD700, #FFA07A")}
+            onMouseEnter={()=>setBg("linear-gradient(135deg, #FFD700, #FFA07A)")}
             onMouseLeave={()=>setBg(initialBg)}
         >
             <img src={sampleimage} alt={name} className="pic"/>
